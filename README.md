@@ -1,3 +1,21 @@
+APP DESIGN
+==========
+
+This app runs queries against posgresql database then get the result and show it to the user.
+
+
+HOW TO RUN
+==========
+
+Install Python: https://www.python.org/
+Prepare your postegresql database
+Download the app zip file
+Extract the zip file
+Open your command line prompt.
+Change to the extracted directory.
+From that directory run: python report_tool.py
+
+
 ATTRIBUTIONS
 ============
 https://www.google.com/
@@ -29,3 +47,13 @@ https://stackoverflow.com/a/1183936 by: hobodave.
 https://stackoverflow.com/a/35335272/6401707 by: zen.
 
 https://stackoverflow.com/a/13113623/6401707 by: Craig Ringer.
+
+https://classroom.udacity.com/nanodegrees/nd004-mena/parts/a8609286-c119-4bc5-b9c9-2a3828080114/modules/56f0f4c7-d611-4949-b8d5-e1b9df12d95f/lessons/4cff95e1-3f1c-435a-bc6c-40fcf0d8f884/concepts/35153985360923
+
+https://classroom.udacity.com/nanodegrees/nd004-mena/parts/a8609286-c119-4bc5-b9c9-2a3828080114/modules/56f0f4c7-d611-4949-b8d5-e1b9df12d95f/lessons/d128b204-9a5c-4547-8599-b3983d06911b/concepts/b1bc900a-44ea-43e9-a51b-d3313705277f
+
+https://classroom.udacity.com/nanodegrees/nd004-mena/parts/a8609286-c119-4bc5-b9c9-2a3828080114/modules/56f0f4c7-d611-4949-b8d5-e1b9df12d95f/lessons/d128b204-9a5c-4547-8599-b3983d06911b/concepts/b1bc900a-44ea-43e9-a51b-d3313705277f
+
+http://initd.org/psycopg/docs/usage.html
+
+https://stackoverflow.com/a/21189383 by: Nigel Tufnel.
