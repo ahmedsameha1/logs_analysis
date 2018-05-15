@@ -7,13 +7,19 @@ This app runs queries against posgresql database then get the result and show it
 HOW TO RUN
 ==========
 
-Install Python: https://www.python.org/
-Prepare your postegresql database
-Download the app zip file
-Extract the zip file
-Open your command line prompt.
-Change to the extracted directory.
-From that directory run: python report_tool.py
+Use a terminal on Linux or Mac or install the terminal that provided with git on Windows. https://git-scm.com/
+Download and install VirtualBox from https://virtualbox.org/
+Download and install Vagrant from https://www.vagrantup.com/
+Download and unzip the file from https://github.com/udacity/fullstack-nanodegree-vm
+Using the terminal, change to the extracted directory. Then change to the vagrant directory.
+Download this file: https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip. Then extract it. Then copy the newsdata.sql to the vagrant directory.
+Inside the vagrant directory and using the terminal run: vagrant up. Then run Vagrant ssh.
+Run: psql -d news -f newsdata.sql
+Download and install python 2 from https://www.python.org/
+Download and install psycopg2 from http://initd.org/psycopg/docs/install.html
+Download and unzip the file of this repository.
+Copy report_tool.py to the vagrant directory.
+Within the vagrant directroy and using your terminal run: python report_tool.py
 
 
 ATTRIBUTIONS
@@ -57,3 +63,17 @@ https://classroom.udacity.com/nanodegrees/nd004-mena/parts/a8609286-c119-4bc5-b9
 http://initd.org/psycopg/docs/usage.html
 
 https://stackoverflow.com/a/21189383 by: Nigel Tufnel.
+
+https://stackoverflow.com/questions/935/string-literals-and-escape-characters-in-postgresql
+
+https://stackoverflow.com/questions/6331504/omitting-the-double-quote-to-do-query-on-postgresql
+
+https://github.com/typeorm/typeorm/issues/435
+
+http://blog.lerner.co.il/quoting-postgresql/
+
+https://classroom.udacity.com/
+
+https://classroom.udacity.com/nanodegrees/nd004-mena/parts/a8609286-c119-4bc5-b9c9-2a3828080114/modules/56f0f4c7-d611-4949-b8d5-e1b9df12d95f/lessons/e168714c-3584-4569-bd1f-3d623c07b0ac/concepts/14c72fe3-e3fe-4959-9c4b-467cf5b7c3a0
+
+https://classroom.udacity.com/nanodegrees/nd004-mena/parts/a8609286-c119-4bc5-b9c9-2a3828080114/modules/56f0f4c7-d611-4949-b8d5-e1b9df12d95f/lessons/d128b204-9a5c-4547-8599-b3983d06911b/concepts/a9cf98c8-0325-4c68-b972-58d5957f1a91

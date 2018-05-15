@@ -41,3 +41,5 @@ result = cursor.fetchall()
 print "\nOn which days did more than 1% of \
 requests lead to errors?\n"
 print '"{}" __ {} errors'.format(result[0][0], result[0][1])
+
+connection.close()
